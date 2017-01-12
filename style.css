@@ -1,0 +1,76 @@
+div#video_controls_bar{
+	background: #333;
+	padding: 10px;
+	color: #ccc;
+	font-weight: "Trebuchet MS";
+	float: left;
+	width: 100%;
+	display: flex;
+}
+div#video_player_box{
+	width: 640px;
+	background: #000;
+	/*margin: 0px auto;*/
+	float: left;
+}
+/*input#seekslider{
+	width: 900px;
+	visibility: hidden;
+}*/
+input#volumeslider{
+	width: 80px;
+}
+
+/*div#video_controls_bar2{
+	background: #333;
+	padding: 10px;
+	color: #ccc;
+	font-weight: "Trebuchet MS";
+}*/
+div#video_player_box2{
+	width: 640px;
+	background: #000;
+	/*margin: 0px auto;*/
+	float: left;
+}
+/*input#seekslider2{
+	width: 240px;
+}
+input#volumeslider2{
+	width: 80px;
+}*/
+
+input[type='range']{
+	-webkit-appearance:none !important;
+	background: #000;
+	border: #666 1px solid;
+	height: 4px;	
+}
+input[type='range']::-webkit-slider-thumb{
+	-webkit-appearance:none !important;
+	background: #FFF;
+	height: 15px;
+	width: 15px;
+	border-radius: 100%;
+	cursor: pointer;
+}
+progress#progress{
+	margin-left: 10px;
+	width:38%;
+	cursor:pointer;
+	/*display:block;*/
+	width:100%;
+	height:20px;
+	height:1.25rem;
+	/*margin-top:2px;
+	margin-top:-0.999rem;*/
+	border:1px solid #aaa;
+	overflow:hidden;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+div#progress{
+	width:38%;
+	cursor:pointer;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Video comparison Tool</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="video_player_box">
+    <video id="my_video" width="640" height="320" preload="metadata">
+        <source src="http://10.0.20.15/lowres/f6ff6af8-8973-4ae0-aa22-dfc2ac4b1999_1.mp4" type="video/mp4">
+    </video>    
+</div>
+<div id="video_player_box2">
+    <video id="my_video2" width="640" height="320" preload="metadata">
+        <source src="http://10.0.20.15/lowres/b3db3b12-b7f4-4864-8483-e5d65f5b09df_1.mp4" type="video/mp4">
+    </video>
+    <!-- <div id="video_controls_bar2">
+        <button id="playpausebtn2">Play</button>
+        <input id="seekslider2" type="range" min="0" max="100" value="0" step="1">
+        <span id="curtimetext2"></span> / <span id="durtimetext2"></span>
+        <button id="mutebtn2">Mute</button>
+        <input id="volumeslider2" type="range" min="0" max="100" value="100" step="1">
+        <button id="fullscreenbtn2">[ &nbsp; ]</button>
+    </div> -->
+</div>
+<div id="video_controls_bar">
+        <button id="playpausebtn">Play</button>    
+        <progress id="progress" value="0" min="0">
+            <span id="progress-bar"></span>
+        </progress>
+        <span id="curtimetext"></span> / <span id="durtimetext"></span>
+        <button id="mutebtn">Mute</button>
+        <input id="volumeslider" type="range" min="0" max="100" value="100" step="1">
+        <button id="fullscreenbtn">[&nbsp;&nbsp;&nbsp;]</button>
+        <!-- <input id="seekslider" type="range" min="0" max="100" value="0" step="1"> -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
