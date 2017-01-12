@@ -8,7 +8,7 @@ div#video_controls_bar{
 	display: flex;
 }
 div#video_player_box{
-	width: 640px;
+	width: 50%;
 	background: #000;
 	/*margin: 0px auto;*/
 	float: left;
@@ -28,7 +28,7 @@ input#volumeslider{
 	font-weight: "Trebuchet MS";
 }*/
 div#video_player_box2{
-	width: 640px;
+	width: 50%;
 	background: #000;
 	/*margin: 0px auto;*/
 	float: left;
